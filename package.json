@@ -1,0 +1,13 @@
+{
+  "name": "@ungap/new",
+  "version": "0.0.0",
+  "description": "An extension to allow `Class.new(...args)` instead of `new Class(...args)`",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": ["function", "class", "new"],
+  "author": "Andrea Giammarchi",
+  "license": "ISC",
+  "module": "./esm/index.js"
+}
