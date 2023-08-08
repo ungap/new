@@ -1,6 +1,6 @@
 {
   "name": "@ungap/new",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An extension to allow `Class.new(...args)` instead of `new Class(...args)`",
   "main": "./index.js",
   "scripts": {
