@@ -5,6 +5,10 @@ This is a resolution to this [TC39 proposal](https://es.discourse.group/t/functi
   * if they implement the proposal, this is exactly it
   * if they won't implement the proposal, this is not causing any present/past/future conflict or issue with already working code in the wild (i.e. static `new` classes methods won't be affected and `new` object fields won't be affected neither)
 
+#### Alternative
+
+If you don't like the idea to simplify everyone life with this module, feel free to try [this workaround](https://github.com/WebReflection/proxy-class-new#readme) that doesn't change the `Function.prototype` at all.
+
 ## Use Case
 
 Specially in these days where many foreign programming languages are landing in the Web landscape via WASM, it is crucial to provide an easy way to disambiguate users intents when it comes to `new Class(...args)`, a syntax that *might not be available* in foreign programming languages.
